@@ -155,6 +155,12 @@ main {
   background-color: var(--champagne);
   color: var(--red-color);
 }
+.img-place {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .programme {
   display: flex;
   flex-direction: column;
@@ -166,6 +172,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin: 2rem 0;
 }
 .event-date {
